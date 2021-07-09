@@ -48,6 +48,7 @@ section {
   text-align: center;
   color: hsl(0, 0%, 59%);
   font-size: 20px;
+  font-family: Libre Franklin;
 }
 
 .email-container {
@@ -135,6 +136,7 @@ form {
   color: hsl(0, 0%, 59%);
   padding: 10px;
   text-align: center;
+  font-family: Libre Franklin;
 }
 
 .fa-instagram {

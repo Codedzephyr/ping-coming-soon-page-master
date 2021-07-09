@@ -5,14 +5,16 @@ This is a solution to the [Ping coming soon page challenge on Frontend Mentor](h
 ## Table of contents
 
 - [Overview](#overview)
-
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
+- [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
 - [Author](#author)
+- [Acknowledgments](#acknowledgments)
 
 **Note: Delete this note and update the table of contents based on what sections you keep.**
 
@@ -38,6 +40,8 @@ Users should be able to:
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
+## My process
+
 ### Built with
 
 - Semantic HTML5 markup
@@ -48,7 +52,38 @@ Users should be able to:
 
 ### What I learned
 
-Container for images to adjust width and using flex.
+Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+
+To see how you can add code snippets, see below:
+
+```html
+<div class="image-container">
+  <img src="./images/logo.svg" alt="logo" />
+</div>
+```
+
+```css
+#notify {
+  background-color: hsl(223, 87%, 63%);
+  border: none;
+  color: whitesmoke;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 30px 10px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 50px;
+  padding: 10px 30px;
+}
+```
+
+```js
+ var regex =
+    /^(([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5}){1,25})+([;.](([a-zA-Z0-9_\-\.]+)@{[a-zA-Z0-9_\-\.]+0\.([a-zA-Z]{2,5}){1,25})+)*$/;
+
+};
+```
 
 ## Author
 
