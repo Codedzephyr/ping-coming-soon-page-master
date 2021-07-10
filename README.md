@@ -38,7 +38,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Solution URL](https://github.com/Codedzephyr/ping-coming-soon-page-master)
-- Live Site URL: [Live Site URL](https://epic-carson-9c172a.netlify.app/https://epic-carson-9c172a.netlify.app/)
+- Live Site URL: [Live Site URL](https://epic-carson-9c172a.netlify.app/)
 
 ## My process
 
