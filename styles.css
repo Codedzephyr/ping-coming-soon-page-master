@@ -91,6 +91,11 @@ form {
   white-space: nowrap;
 }
 
+#notify:hover {
+  background-color: hsl(223, 100%, 88%);
+  color: whitesmoke;
+}
+
 .image-container2 {
   display: flex;
   justify-content: center;
@@ -132,15 +137,27 @@ form {
 .fa-facebook {
   background-color: transparent;
   border: 1px solid whitesmoke;
-  color: hsl(209, 33%, 12%);
+  color: hsl(210, 92%, 10%);
   font-size: 32px;
   padding: 10px 13px;
+}
+
+.fa-facebook:hover {
+  background-color: hsl(223, 87%, 63%);
+  border: 1px solid hsl(223, 100%, 88%);
+  color: whitesmoke;
 }
 
 .fa-twitter {
   background-color: transparent;
   border: 1px solid whitesmoke;
   color: hsl(209, 33%, 12%);
+}
+
+.fa-twitter:hover {
+  background-color: hsl(223, 87%, 63%);
+  border: 1px solid hsl(223, 100%, 88%);
+  color: whitesmoke;
 }
 
 .paragraph1 {
@@ -154,6 +171,12 @@ form {
   background-color: transparent;
   border: 1px solid whitesmoke;
   color: hsl(209, 33%, 12%);
+}
+
+.fa-instagram:hover {
+  background-color: hsl(223, 87%, 63%);
+  border: 1px solid hsl(223, 100%, 88%);
+  color: whitesmoke;
 }
 
 #paragraph2 {
