@@ -1,21 +1,16 @@
-const EmailBorder = document.getElementById("email");
-const ErrorMessage = document.getElementById("paragraph2");
+const clickable = document.getElementById("shared");
+const tooltip1 = document.getElementById("tooltip");
+const mobile = document.getElementById("mobile-contain");
 
-function PerformCheck() {
-  const email = document.getElementById("email").value;
-  ErrorMessage.style.display = "none";
-  EmailBorder.style.borderColor = "#ccc";
-  var regex =
-    /^(([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5}){1,25})+([;.](([a-zA-Z0-9_\-\.]+)@{[a-zA-Z0-9_\-\.]+0\.([a-zA-Z]{2,5}){1,25})+)*$/;
-
-  if (regex.test(email) === false) {
-    ErrorMessage.style.display = "block";
-    EmailBorder.style.borderColor = " hsl(354, 100%, 66%)";
+clickable.addEventListener("click", () => {
+  if (tooltip1.style.display !== "block" && document.body.clientWidth > 768) {
+    tooltip1.style.display = "block";
+  } else {
+    tooltip1.style.display = "none";
   }
-
-  if (email == "" || email == null) {
-    ErrorMessage.style.display = "block";
-    EmailBorder.style.borderColor = " hsl(354, 100%, 66%)";
-    return;
+  if (mobile.style.display !== "block" && document.body.clientWidth < 768) {
+    mobile.style.display = "block";
+  } else {
+    mobile.style.display = "none";
   }
-}
+});
